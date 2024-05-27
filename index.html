@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Esperança Sobre Rodas</title>
+</head>
+<body>    
+        <header>
+            <div class="header">
+                <div class="logo"><img  class="logo" src="assets/logo.png" alt="Esperança sobre Rodas" ></div>
+                <div>
+                    <a href="#" class="infoNav">Agendar Viagens</a>
+                    <a href="#" class="infoNav">Busca rápida</a>
+                    <a href="#" class="infoNav">Suporte</a>
+                </div>
+                <a href=""><img class="icone" src="assets/iconePerfil.png" alt=""></a>
+            </div>
+        </header>
+
+        <main>
+            <div class="container">
+                <div class="title">
+                    <h1>Agende sua corrida</h1>
+                    <p class="subTitulo">Selecione data, horário e informe os dados pedidos para criar o agendamento.</p>
+                </div>
+            <form>
+                <div class="form1">
+                    <div class="form-group">
+                        <label for="nomePaciente">Nome Paciente:</label><br>
+                        <input type="text" id="nomePaciente" name="nomePaciente" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="enderecoOrigem">Endereço de Origem:</label><br>
+                        <input type="text" id="enderecoOrigem" name="enderecoOrigem" required>
+                    </div>
+                </div>
+
+
+                <div class="form1">
+                    <div class="form-group">
+                        <label for="nomeAcompanhante">Nome Acompanhante:</label><br>
+                        <input type="text" id="nomeAcompanhante" name="nomeAcompanhante" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="enderecoDestino">Endereço de Destino:</label><br>
+                        <input type="text" id="enderecoDestino" name="enderecoDestino" required>
+                    </div>
+                </div>
+
+
+                <div class="form1">
+                    <div class="form-group">
+                        <label for="data">Data:</label><br>
+                        <input type="date" id="data" name="data" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="horario">Horário:</label><br>
+                        <input type="time" id="horario" name="horario" required>
+                    </div>
+                </div>
+
+              
+                <div>
+                    <button  class="submit" type="submit">AGENDAR</button>
+                </div>
+            </form>
+
+        </div>
+    </main>
+
+   
+    
+    
+</body>
+</html>
